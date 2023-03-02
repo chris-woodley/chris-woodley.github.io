@@ -30,7 +30,7 @@ url: "https://chris-woodley.github.io/" # the base hostname & protocol for your 
 github_username:  chris-woodley
 
 # Build settings
-theme: midnight
+theme: jekyll-theme-midnight
 plugins:
   - jekyll-feed
 
