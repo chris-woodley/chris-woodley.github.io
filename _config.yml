@@ -22,7 +22,7 @@ title: Chris Woodley ePortfolio
 email: cwoodley1002@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This site contains artifacts developed by Chris Woodley for his Computer Science program. Work in progress!
-baseurl: "" # the subpath of your site, e.g. /blog
+#baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://chris-woodley.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  chris-woodley
