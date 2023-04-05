@@ -28,7 +28,7 @@ url: "https://chris-woodley.github.io/" # the base hostname & protocol for your 
 github_username:  chris-woodley
 
 # Build settings
-# theme: minima
+theme: minima
 remote_theme: pages-themes/modernist@v0.2.0
 plugins:
   - jekyll-feed
