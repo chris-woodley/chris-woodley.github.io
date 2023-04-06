@@ -17,12 +17,28 @@ Christopher Woodley ePortfolio
     line-height: 1;
     letter-spacing: -1px;
   }
+  .button {
+    background-color: #2B547E;
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
 </style>
 
 <div class="container">
-  <h1>About me</h1>
+  <a href="https://www.youtube.com/watch?v=ecQVnfEU0kg&ab_channel=ChristopherWoodley" class="button">Code Review</a>
+  <a href="" class="button">Self-Assessment</a>
+  <a href="" class="button">Artifact 1 - Task Scheduler</a>
+  <a href="" class="button">Artifact 2 - Monitoring System</a>
+  <h1>ePortfolio</h1>
 
   <p>Hello! My name is Christopher Woodley. I am currently working on my Bachelor's in Computer Science, with emphasis on Software Engineering 
   at Southern New Hampshire University.</p>
-  <p>This site is still in development. Please be patient.</p>
+  <p>This site is my ePortfolio highlight the skills and knowledge I have gained during both my Computer Science education as well as professional career.</p>
 </div>
