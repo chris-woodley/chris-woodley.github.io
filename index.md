@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-This is the home page of the myproject documentation.
+Christopher Woodley
 ---
 
 <style type="text/css" media="screen">
@@ -19,8 +19,9 @@ This is the home page of the myproject documentation.
 </style>
 
 <div class="container">
-  <h1>Hello World!</h1>
+  <h1>About me</h1>
 
-  <p><strong>chris-woodley</strong></p>
-  <p>In Development</p>
+  <p>Hello! My name is Christopher Woodley. I am currently working on my Bachelor's in Computer Science, with emphasis on Software Engineering 
+  at Southern New Hampshire University.</p>
+  <p>This site is still in development. Please be patient.</p>
 </div>
