@@ -12,7 +12,8 @@ Christopher Woodley ePortfolio
   }
   h1 {
     margin: 30px 0;
-    font-size: 4em;
+    font-size: 2em;
+    color: #2B547E;
     line-height: 1;
     letter-spacing: -1px;
   }
