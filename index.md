@@ -1,7 +1,7 @@
 ---
-permalink: /index.md
-layout: page
-title: "INDEX"
+layout: default
+---
+This is the home page of the myproject documentation.
 ---
 
 <style type="text/css" media="screen">
