@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-Christopher Woodley
+Christopher Woodley ePortfolio
 ---
 
 <style type="text/css" media="screen">
