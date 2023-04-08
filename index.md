@@ -40,6 +40,6 @@ Christopher Woodley ePortfolio
   <p>This site is my ePortfolio highlight the skills and knowledge I have gained during both my Computer Science education as well as professional career.</p>
   <a href="https://www.youtube.com/watch?v=ecQVnfEU0kg&ab_channel=ChristopherWoodley" class="button">Code Review</a>
   <a href="/self-assessment.html" class="button">Self-Assessment</a>
-  <a href="" class="button">Artifact 1 - Task Scheduler</a>
-  <a href="" class="button">Artifact 2 - Monitoring System</a>
+  <a href="/task-scheduler.html" class="button">Artifact 1 - Task Scheduler</a>
+  <a href="/monitoring-system.html" class="button">Artifact 2 - Monitoring System</a>
 </div>
