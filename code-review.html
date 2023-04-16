@@ -23,16 +23,30 @@ layout: default
     background-color: #2B547E;
     border: none;
     color: white;
-    padding: 20px 34px;
+    padding: 10px 10px;
     text-align: center;
     text-decoration:none;
-    display: inline-block;
+    display: block;
     font-size: 20px;
     margin: 5px auto;
     cursor: pointer;
     white-space: normal;
     border-radius: 8px;
   }
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .center1 {  
+    text-align: right;
+  }  
+
+  .center2 {
+    text-align: left;
+  }  
+
 </style>
 
 <div class="container">
@@ -50,11 +64,23 @@ layout: default
 <iframe width="500" height="320" src="https://www.youtube.com/embed/ecQVnfEU0kg" title="Capstone Code Review" frameborder="0" 
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
-<p class="container">
-<a href="/index.html" class=button>Home</a>
-<a href="/self-assessment.html" class=button>Self-Assessment</a>
-<br>
-<a href="/task-scheduler.html" class=button>Artifact 1 - Task Scheduler</a>
-<a href="/monitoring-system.html" class=button>Artifact 2 - Monitoring System</a>
+<table class="center">    
+  <tr>
+    <td class="center1">
+      <a href="/index.html" class=button>Home</a>
+    </td>
+    <td class="center2">
+      <a href="self-assessment.html" class=button>Self Assessment</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="center1">
+      <a href="/task-scheduler.html" class=button>Artifact 1 - Task Scheduler</a>
+    </td>
+    <td class="center2">
+      <a href="/monitoring-system.html" class=button>Artifact 2 - Monitoring System</a> 
+    </td>
+  </tr>
+</table>
 </p>
 </div>

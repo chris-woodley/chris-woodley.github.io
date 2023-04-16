@@ -10,6 +10,11 @@ layout: default
     max-width: 800px;    
   }
 
+  .container2 {
+    margin: 5px auto;
+    text-align: center;
+  }
+
   h1 {
     margin: 30px 0;
     font-size: 2em;
@@ -32,31 +37,16 @@ layout: default
     background-color: #2B547E;
     border: none;
     color: white;
-    padding: 20px 34px;
+    padding: 10px 10px;
     text-align: center;
     text-decoration:none;
-    display: inline-block;
+    display: block;
     font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
     white-space: normal;
     border-radius: 8px;
-  }
-
-  .button1 {
-    background-color: #2B547E;
-    border: none;
-    color: white;
-    padding: 20px 20px;
-    text-align: center;
-    text-decoration:none;
-    display: inline-block;
-    font-size: 20px;
-    margin: 5px auto;
-    cursor: pointer;
-    white-space:normal;
-  }
-
+  }  
   ul {
     text-align: left;
   }
@@ -79,6 +69,19 @@ layout: default
     font-style: italic;
     color: #2B5472
   }
+  
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .center1 {  
+    text-align: right;
+  }  
+
+  .center2 {
+    text-align: left;
+  }  
 
 </style>
 
@@ -163,13 +166,32 @@ functions but merely a set of code that can plugged in and adjusted as needed, m
   vital in the development process, but can be put into use in other aspects of the DevSecOps process, ensuring that regardless of issues and obstacles, my ability to adapt and proceed will 
   not cause a delay in the development process.
 </p>
-<p class="container">
-<a href="/_artifacts/_monitoring_system/_original/" class=button1>Original Code</a>
-<a href="/_artifacts/_monitoring_system/_updated/" class=button1>Enhanced Code</a>
-<br>
-<a href="/index.html" class=button>Home</a>
-<a href="/self-assessment.html" class=button>Self-Assessment</a>
-<a href="/code-review.html" class=button>Code Review</a>
-<a href="/task-scheduler.html" class=button>Artifact 1 - Task Scheduler</a>
+<p class="container2">
+  <table class="center">
+    <tr>
+      <td class="center1">
+        <a href="/_artifacts/_monitoring_system/_original/" class=button>Original Code</a>        
+      </td>
+      <td class="center2">
+        <a href="/_artifacts/_monitoring_system/_updated/" class=button>Enhanced Code</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="center1">
+        <a href="/index.html" class=button>Home</a>
+      </td>
+      <td class="center2">
+        <a href="/self-assessment.html" class=button>Self-Assessment</a> 
+      </td>
+    </tr>
+    <tr>
+      <td class="center1">
+        <a href="/code-review.html" class=button>Code Review</a>
+      </td>
+      <td class="center2">
+        <a href="/task-scheduler.html" class=button>Artifact 1 - Task Scheduler</a> 
+      </td>
+    </tr>
+  </table>
 </p>
 </div>

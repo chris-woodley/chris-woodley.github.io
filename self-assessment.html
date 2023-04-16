@@ -10,6 +10,12 @@ layout: default
     margin: 10px auto;
     max-width: 800px;    
   }
+
+  .container2 {
+    margin: 5px auto;
+    text-align: center;
+  }
+
   h1 {
     margin: 30px 0;
     font-size: 2em;
@@ -31,10 +37,10 @@ layout: default
     background-color: #2B547E;
     border: none;
     color: white;
-    padding: 20px 20px;
+    padding: 10px 10px;
     text-align: center;
     text-decoration:none;
-    display: inline-block;
+    display: block;
     font-size: 20px;
     margin: 5px auto;
     cursor: pointer;
@@ -60,6 +66,19 @@ layout: default
     font-style: italic;
     color: #2B5472
   }
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .center1 {  
+    text-align: right;
+  }  
+
+  .center2 {
+    text-align: left;
+  }  
 
  </style>
 
@@ -269,11 +288,24 @@ In these ways, I have demonstrated an ability to use well-founded and innovative
 <p>
   Further details regarding the enhancement of the selected artifacts can be found in the artifact sections below. 
 </p>
-<p class="container">
-<a href="/index.html" class=button>Home</a>
-<a href="/code-review.html" class=button>Code Review</a>
-<br>
-<a href="/task-scheduler.html" class=button>Artifact 1 - Task Scheduler</a>
-<a href="/monitoring-system.html" class=button>Artifact 2 - Monitoring System</a>
+<p class="container2">
+  <table class="center">    
+    <tr>
+      <td class="center1">
+        <a href="/index.html" class=button>Home</a>
+      </td>
+      <td class="center2">
+        <a href="/code-review.html" class=button>Code Review</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="center1">
+        <a href="/task-scheduler.html" class=button>Artifact 1 - Task Scheduler</a>
+      </td>
+      <td class="center2">
+        <a href="/monitoring-system.html" class=button>Artifact 2 - Monitoring System</a> 
+      </td>
+    </tr>
+  </table>
 </p>
 </div>
