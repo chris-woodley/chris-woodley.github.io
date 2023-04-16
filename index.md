@@ -31,11 +31,14 @@ layout: default
 </style>
 
 <div class="container">  
-  <h1>ePortfolio</h1>
+  <h1>Software Engineering ePortfolio</h1>
 
   <p>Hello! My name is Christopher Woodley. I am currently working on my Bachelor's in Computer Science, with emphasis on Software Engineering 
   at Southern New Hampshire University.</p>
-  <p>This site is my ePortfolio highlight the skills and knowledge I have gained during both my Computer Science education as well as professional career.</p>
+  <p>This site is my ePortfolio highlight the skills and knowledge I have gained during both my Computer Science education as well as professional career. In here can be found a code review 
+  of the artifacts used for the enhancement process, and how best to implement the new requirements. Next can be found the professional self-assessment in which speaks to my journey during the Computer Science program and how it helped to teach me new skills but also how best to improve the skill set I already utilized in my professional career currently. Lastly, you will find 
+  the two artifacts used for enhancement, the Task Scheduler and the Monitoring System. Both contain the original source code as well as the enhancement, as well as information on why these 
+  updates were made and the process taken.</p>
   <a href="/code-review.html" class="button">Code Review</a>
   <a href="/self-assessment.html" class="button">Self-Assessment</a>
   <a href="/task-scheduler.html" class="button">Artifact 1 - Task Scheduler</a>

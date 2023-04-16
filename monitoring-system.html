@@ -18,6 +18,17 @@ Artifact 2 - Monitoring System
     line-height: 1;
     letter-spacing: -1px;
   }
+
+  h2{
+    margin: 30px 0;
+    font-size: 1.5em;
+    color: #2B547E;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-style: italic;
+    text-align: center;
+  }
+
   .button {
     background-color: #2B547E;
     border: none;
@@ -31,13 +42,129 @@ Artifact 2 - Monitoring System
     cursor: pointer;
     white-space: normal;
   }
+
+  .button1 {
+    background-color: #2B547E;
+    border: none;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    white-space:normal;
+  }
+
+  ul {
+    text-align: left;
+  }
+
+  figure {
+    display: inline-block;
+    border: 1px dotted gray;
+    margin: 8px;
+  }
+
+  figure img {
+    vertical-align: top;
+    width: auto;
+    height: auto;
+  }
+
+  figure figcaption {
+    border: 1px dotted blue;
+    text-align: center;
+    font-style: italic;
+    color: #2B5472
+  }
+
 </style>
 
 <div class="container">
 <h1>Artifact 2 - Monitoring System</h1>
-<p>TEXT GO HERE DUR DUR DUR</p>
-<a href="" class=button>Original Code</a>
-<a href="" class=button>Enhanced Code</a>
+<figure>
+  <img src="docs/assets/images/monitoring_system_img.jpg" alt="Animal Monitoring System">
+  <figcaption>Monitoring System displaying all animal details</figcaption>
+</figure>
+<h2>Description</h2>
+<p>
+The second artifact I have selected is a Monitoring System. The original application was developed in January 2021 for use in IT-145 - Foundation in App Development for the use in showing 
+the ability to read data from a separate file and output in the application. The application will prompt user to select either Animal or Habitat monitoring, in which the file in question will 
+be pulled and allow users to search and display the information found in the file for the requested record.
+</p>
+<figure>
+  <img src="docs/assets/images/csv_img.jpg" alt="Animal CSV Data File">
+  <figcaption>CSV file containing data for animals for use in the monitoring system</figcaption>
+</figure>
+<h2>Inclusion</h2>
+When selecting artifacts for the use in the ePortfolio, this application was an easy selection to help outline the usage of algorithms in use of making searching and displaying information 
+take less execution time as the larger the data to be sorted, the better it will reflect the usage of the algorithm. Seeing how the original application used basic text based files with limited 
+data, for this to show the true merit of the algorithm was to expand on the data, by using CSV text based filed instead, which keep the data aligned in separate sections while not making the file 
+harder to recreate and traverse. While the original application was just for reading off the file, this needed to be adjusted, allowing for data to be not just read, but new items added and 
+updates allowed for existing data. The ability to take large data and not just make it accessible, but to make the execution of data manipulation not cause a large delay for the end user made 
+this a perfect fit for inclusion.
+<figure>
+  <img src="docs/assets/images/binary_search_tree_img.jpg" alt="Binary Search Tree">
+  <figcaption>Binary Search Tree algorithm for searching through data added for application use</figcaption>
+</figure>
+<h2>Skills and Abilities in Software Development</h2>
+<i>Employed strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science:</i>
+<ul>
+  <li>Built and implemented basic template of monitor system for ease of adding additional options that utilize the same functionality of existing systems</li>
+  <li>Source code commented both with overall functional information but also line by line detail on what section of code is executing what function</li>
+  </ul>
+<i>>Designed and evaluated computing solutions that solved a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while 
+    managing the trade-offs involved in design choices:</i>
+  <ul>
+    <li>Implemented binary search tree algorithm to monitoring system to pull incoming data into individual nodes, allowing for easier traversal for finding and updating data elements</li>
+    <li>Altered binary search tree to utilize searching for string based data versus numeric data to remove need of unique numeric identifier for use in search nodes</li>
+    <li>Implemented two separate binary search trees to fit in with specific files needs, thereby creating a template based code for adding additional systems with the same binary search 
+      tree functionality when adding new systems to monitor
+    </li>
+</ul>
+<i>Developed a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy 
+  and enhanced security of data and resource</i>
+<ul>
+  <li>Added error handling and catches to ensure application will prompt user if error but will continue execution, ensuring no error can open backend data due to execution breaks</li>
+  <li>Ensured catches to invalid data selections were added to each input section, ensuring anything beyond acceptable data will result in error and will not cause intrusion</li>
+  <li>Added checks for file closure after completion of file usage to ensure data is opened only for pulling required data and closed once completed</li>
+</ul>
+<figure>
+  <img src="docs/assets/images/bst_traverse_img.jpg" alt="Binary Search Tree Traversal">
+  <figcaption>Traversal functionality of the Binary Search Tree to move through nodes depending on comparison results</figcaption>
+</figure>
+<h2>Reflection</h2>
+<p>The process of enhancing this artifact has helped to put new perspective in terms of how to utilize my skill set when making updates and enhancements to programs. With this artifact, the 
+  main concern was the limited functionality that was originally developed, since it was utilizing a very small data set and also only allowing the user to view results, not make any 
+  alterations. By pushing for CSV text based file, I was able to keep the data aligned together without needing to expand the list into something that would be first harder to generate and 
+  also more complicated for manual review. With the expanded data, the need for a better method of pulling data was needed, since execution time for each function should be quick for a 
+  responsive application. The binary search tree was the easy selection here given it helps to implement a "divide and conquer" aspect for the data, allowing the system to view the required 
+  field and sift through the nodes by comparing and then moving to the respective branch depending on those results, offering less computing time for searches. However, since most binary 
+  search trees I have developed used numeric based parameters which would require additional fields if added to the current application. Due to the data not including any unique numeric code, 
+  this method was enhanced to take in a string parameter for use in the functionality, which required some alteration to ensure that string data was acceptable via the binary search tree.
+</p>
+<p>
+The main challenge in this enhancement was the implementation of the binary search tree. At first, the implementation was to utilize a sole binary search tree class for both files being 
+utilized. However, the issues found during this implementation was that due to differences in file structure and data elements, it wasn't feasible to continue with how the trees needed to be, 
+which was causing errors in the traversal and data not being located properly. So instead one complete binary search tree was implemented and tested on the Animal file and worked on all 
+executions, and then was taken as template for the Habitat binary search tree, with little adjustments to be made to ensure it worked similarly, and during testing was found to work without 
+issues as well, thereby taking code and reusing it as best as possible. This helped solidify the practice of reusable code, which may not always be a class that can be called by several other 
+functions but merely a set of code that can plugged in and adjusted as needed, making it a standard for uniform source code.
+</p>
+<p>
+  After completing the enhancement, I found that the current application gives a more valid picture of my current skill set in software development. Taking the structure that was 
+  made available already had the basic set up required, however even this required adjustments. First was to consider how best to protect the application as well as ensure that unforeseen 
+  errors would be better handled. Adopting the DevSecOps methodology helped when reviewing the code to find areas with possible issues, such as not closing out files after use and not validating 
+  input from users, to ensure that proper checks were always put into place and the right catches were added to ensure the application will not cause an unexpected crashes. Additionally, the 
+  issue with the binary search tree needing to be put into each section was a good measure of adaptability, ensuring that regardless of the issues experienced during development, the end goal 
+  was kept in the forefront, and any adjustments needing to be made were done with the end product in mind. These methods of resolving issues helps in not just showing that adaptability is 
+  vital in the development process, but can be put into use in other aspects of the DevSecOps process, ensuring that regardless of issues and obstacles, my ability to adapt and proceed will 
+  not cause a delay in the development process.
+</p>
+<a href="" class=button1>Original Code</a>
+<a href="" class=button1>Enhanced Code</a>
 <br>
 <a href="/index.html" class=button>Home</a>
 <a href="/self-assessment.html" class=button>Self-Assessment</a>

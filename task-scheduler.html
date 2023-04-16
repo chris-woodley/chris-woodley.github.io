@@ -18,6 +18,18 @@ Artifact 1 - Task Scheduler
     line-height: 1;
     letter-spacing: -1px;
   }
+
+  h2{
+    margin: 30px 0;
+    font-size: 1.5em;
+    color: #2B547E;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-style: italic;
+    text-align: center;
+  }
+
+
   .button {
     background-color: #2B547E;
     border: none;
@@ -31,11 +43,123 @@ Artifact 1 - Task Scheduler
     cursor: pointer;
     white-space: normal;
   }
+
+  ul {
+    text-align: left;
+  }
+
+  figure {
+    display: inline-block;
+    border: 1px dotted gray;
+    margin: 8px;
+  }
+
+  figure img {
+    vertical-align: top;
+    width: 600px;
+    height: auto;
+  }
+
+  figure figcaption {
+    border: 1px dotted blue;
+    text-align: center;
+    font-style: italic;
+    color: #2B5472
+  }
+
 </style>
 
 <div class="container">
 <h1>Artifact 1 - Task Scheduler</h1>
-<p>TEXT GO HERE DUR DUR DUR</p>
+<figure>
+    <img src="docs/assets/images/java_gui_img.jpg" alt="Task Scheduler Enhanced User Interface">
+    <figcaption>Enhancement to Graphical User Interface for Task Scheduler for more user-friendly menus for navigation</figcaption> 
+</figure>
+<h2>Description</h2>
+<p>The first artifact I have selected ia a Task Scheduler. This was originally developed in October 2021 for use in CS-320 - Software Test Automation for the use in showing the use of jUnit 
+    testing, by testing the limitations and staying within the confines of the requirements as stated and ensuring these were upheld during program execution. Each class held particular 
+    requirements for each individual attribute for the given class, and were built with the basic constructor class and the CURD functionality for each as well.
+    
+</p>
+<figure>
+  <img src="docs/assets/images/contact_menu_img.jpg" alt="Contact Menu Interface">
+  <figcaption>Contact Menu will keep track of all actions taken in Status Window for users</figcaption>
+</figure>
+<h2>Inclusion</h2>
+<p>
+    Upon selecting the proper artifacts for use in the ePortfolio, this application stood out not just for one category of enhancement, but for two, which were Software Design and Engineering 
+    as well as Database. The main reason for inclusion of this application was that already a basic structure had been built in terms of the individual classes (Contact, Appointment and Task)
+     as well as the proper constructors and CRUD functionality. What was lacking was a means of tying these pieces together into a working application. What was required for this was a 
+     proper user interface, and since the application was originally built in Java, it made sense to retain the same language and make use of the forms available in Java to build up a 
+     graphical user-interface, which would be easy to follow and allow a wider audience for the application usage. With that, an application such as this would require a great deal of storage
+     for all information being added by users. This made the usage of a MongoDB NoSQL database to hold the data elements a perfect addition, not only for the amount of storage capabilities, 
+     but also for the ease of querying from the specific collections and having the data manipulated by the end user.
+</p>
+<figure>
+  <img src="docs/assets/images/mongo_connect_img.jpg" alt="Java MongDB Connection">
+  <figcaption>Java Code to call out to MongoDB that can be reused within the application</figcaption>
+</figure>
+<h2>Skills and Abilities in Software Development</h2>
+<p>
+<i>Designed, developed and delivered professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and 
+    contexts:</i>
+<ul>
+    <li>Implemented informative comments throughout the individual classes, highlighted what each section is responsible for in the application execution</li>
+    <li>Class, variable, and function name updates to better highlight what each will be utilized for in the application, allowing easier understanding of individual function</li>
+    <li>Improved user interface utilizing Java forms that makes navigation more intuitive and simpler regardless of user's knowledge of the application</li>
+    <li>Adaptable user interface for function selection implemented to assist users in understanding what actions are available with selections made</li>
+</ul>
+<br>
+<i>Demonstrated an ability to use well-founded and innovative techniques, skills and tools in computing practices for the purpose of implementing computer solutions that deliver value and 
+    accomplish industry-specific goals:</i>
+<ul>
+    <li>Implemented Java forms for user interface, which reduces complexity of application functionality, allowing more ease for users to access and utilize all aspects of application</li>
+    <li>Implemented Mongo Database for use of storing and accessing information that user stores, which increases amount of data that user has available for long term storage, as well 
+        as well as allows for ease of access of stored data via simple querying of the data via the user interface
+    </li>
+</ul>
+<br>
+<i>Developed a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy 
+  and enhanced security of data and resources:</i>
+<ul>
+  <li>Added validations of inputted data into the code, both on the data element level as well as the user input level, to ensure users cannot enter any information 
+    which is not matching expected data
+  </li>
+  <li>Added error handling and catches to ensure application will prompt user of error but will remain executing, ensuring no error can open the backend data due to application execution 
+    breaks
+  </li>  
+  <li>Ensured connection to database is limited to administrative account that is systematically access via the application connection and cannot be altered</li>
+</ul>
+</p>
+<figure>
+  <img src="docs/assets/images/key_listener_img.jpg" alt="Key Listener added to Phone Number field">
+  <figcaption>Code added to Contact Menu Java Form to ensure only numeric input in Phone Number field</figcaption>
+</figure>
+<h2>Reflection</h2>
+<p>
+The process of enhancing this artifact has helped to not only hone skills that I have utilized previously, but also to expand upon my current knowledge to adding new aspects for this 
+update. This enhancement helped me to build further upon my ability to bridge a problem by utilizing not just one developed solution, but one solution housed in two separate entities, 
+the first being the Java application, and the second the Mongo Database. This was accomplished not just by ensuring that a mere connection was made, but ensuring that each worked in their
+ individual way to obtain the desired solution. By ensuring that the proper connections were built in the Java code was part of the solution, but also ensuring that the proper trigger effect 
+ was set in the MongoDB was made to ensure that each record added had an easy to use unique identifier (in addition to the object ID) helped to make querying the data much simpler. Adding to 
+ the usage of the database, the creation of the graphical user interface using the Java forms helped to hone my skills in front-end development, making something that can be easily accessed 
+ by a wider audience by removing a terminal text based interface to something that is more visually helpful for users to navigate the application's functionality. 
+</p>
+<p>
+The main challenges faced during this enhancement were mainly in the implementation of the database as and ensuring the user interface was as intuitive as possible. Having used MongoDB 
+ previously, I had not utilized it in a Java program (having implemented in Python previously), which has some learning curves to ensure both a connection was made to the database, but also 
+ ensuring that the queries would function as intended, pulling the results into the application as needed. Additionally, ensuring that the Java forms were built not just to be easy to 
+ understand, but also ensured that data validation was put into place, ensuring that only specific data elements could be entered, and limiting to reduce risk of data intrusions. 
+</p>
+<p>
+After having worked on the enhancement, I feel that the current iteration after the enhancements have been implemented to be a better outline not just of the knowledge I have gained 
+through the computer science program, but also it helped visualize my ability to make adjustments as needed to any existing program and make the necessary changes as per requirements. My 
+experience having done this in my professional life has also given me guidance in how to make it intuitive to the users, making sure that how the application functions should be simple enough 
+for any user of any experience with only a simple learning curve at best. The enhancements have also helped in outlining my skills in developing a solution that can meet all intended 
+requirements, and also showing my ability to ensure that code that is developed will be simple to follow for anyone who looks upon the source code, making others able to make needed adjustments 
+and enhancements themselves with relative ease. With all of these put together, both in my computer science program and my professional life, this artifact enhancement is a combination of all 
+aspects combined.
+</p>
 <a href="" class=button>Original Code</a>
 <a href="" class=button>Enhanced Code</a>
 <br>

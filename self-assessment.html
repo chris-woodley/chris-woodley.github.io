@@ -31,7 +31,7 @@ Professional Self Assessment
     background-color: #2B547E;
     border: none;
     color: white;
-    padding: 20px 34px;
+    padding: 20px 20px;
     text-align: center;
     text-decoration:none;
     display: inline-block;
@@ -49,6 +49,8 @@ Professional Self Assessment
 
   figure img {
     vertical-align: top;
+    width: 600px;
+    height: auto;
   }
 
   figure figcaption {
@@ -126,7 +128,7 @@ During my time in the Computer Science program, I was able to design, develop, a
 </figure>
 <br>
 <figure>
-  <img src="/docs/assets/images/flow_img.jpg" alt="Flowchat of Thermostat" class="center">
+  <img src="/docs/assets/images/flow_img.jpg" alt="Flowchart of Thermostat" class="center">
   <figcaption>Example 4: CS-350: Emerging System Architecture & Technology  - Workflow Chart of Thermostat to trigger LEDs based on sensor and temperature settings</figcaption>
 </figure>
 <br>
@@ -206,8 +208,66 @@ In these ways, I have demonstrated an ability to use well-founded and innovative
   <figcaption>Example 13: CS-499: Computer Science Capstone - MongoDB Collection contact in taskScheduler database</figcaption>
 </figure>
 </p>
-<p><h2>Security</h2>
-<br>Yes, more text</p>
+<h2>Security</h2>
+<p>Along with reaching the desired solution, the ability to keep said application both stable and secure holds a great deal of merit. When considering the stability of an application, it cannot 
+  be easily broken or manipulated to do beyond its desired scope. In terms of security, the fear of personal data being accessible to anyone will always be a concern that need to be approached 
+  with the utmost care. By adopting a DevSecOps methodology of software development, keeping security as much a part of the development process as any other aspect ensures that security is
+   never just an afterthought, but a main aspect of the process.
+</p>
+<p> It is in these ways that I have developed a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design 
+  flaws, and ensure privacy and enhanced security of data and resources. By considering that security needs be considered during the development process, taking measure of the requirements
+   helps to determine possible vulnerabilities. Such in the case of allowing user input to be made, issues such as SQL injection (Example 14) and buffer overflow could be a concern. However, by
+    ensuring the data input is properly validated and only allowed to the extent as per requirements (Example 15), this helps reduce these types of issues. Even at times there can be unforeseen
+     circumstances, but the code must go on and the application must not break. By adding in exception catches and error handling, these unforeseen issues, be them due to outside interference
+      or an error yet to be discovered, the error will be captured and handled by letting the user know, but still will not cause the application to break, which in turn ensures that it runs 
+      as needed, but also secures the source code from those who should not have this access. Lastly, the best method of not just ensuring that code functions as required, but that limits and 
+      validations are placed is via testing (Example 16). By building tests for the code, you can seek out the limitations, finding when things will not just pass when intended, but fail when
+       they should as well, better ensuring that all expectations are met not just logically as per the code, but by example and execution as well (Example 17).
+  </p>
+  <p>
+  <figure>
+    <img src="docs/assets/images/sql-inject-img.png" alt="SQL Injection" class="center">
+    <figcaption>Example 14: CS-405: Secure Coding - SQL Injection test to catch attempts and ensure they are handled properly</figcaption>
+  </figure>
+  <figure>
+    <img src="docs/assets/images/data_validation_img.jpg" alt="Data Validation" class="center">
+    <figcaption>Example 15: CS-199: Computer Science Capstone - Java Form function added to text fields to ensure character length is kept within acceptable limits</figcaption>
+  </figure>
+  <figure>
+    <img src="/docs/assets/images/unit_test_img.jpg" alt="Unit Testing" class="center">
+    <figcaption>Example 16: CS-405: Secure Coding - Unit Testing code developed to test various functionality of applications</figcaption>
+  </figure>
+  <figure>
+    <img src="/docs/assets/images/test_img.png" alt="Unit Testing Execution" class="center">
+    <figcaption>Example 17: CS-405: Secure Coding - Unit Test execution to validate if testing items pass or fail execution</figcaption>
+  </figure>
+  </p>
+<h2>Portfolio Artifact 1 - Task Scheduler</h2>
+<p>
+  The first artifact added to this portfolio is a Task Scheduler, which holds Contact, Appointment and Task information. The application was written in Java, and during consideration for 
+  enhancement, it was determined to keep the programming language used the same for this artifact. The reason for the selection to the ePortfolio is that the application was originally used 
+  for testing purposes only, without any true application base developed. With the basic structure already built, it was a perfect example to not only complete to make it functional, but to 
+  make the enhancements to make it function in a more user-friendly manner. By adding a graphical user interface generated by Java forms, this helps to expand the audience of the application 
+  wider as the user-friendly design will make it more appealing to more. By taking the already existing data structures created for the contact, appointment, and task elements, and putting 
+  into use the CRUD functionality, this will help show the ability to reuse assets for expanded functionality. Lastly, by implementing a MongoDB database that will hold the data, this helps 
+  to increases the usability of the application, allowing for long term storage of information, but also to allow for easier access to the existing data elements via the MongoDB query 
+  functionality to insert, read, edit, and delete user information. 
+</p>
+<h2>Portfolio Artifact 2 - Monitoring System</h2>
+<p>
+  The second artifact selected is a Monitoring System written in Java. The original application was built solely to pull data from a text-based file and display the information to the terminal. 
+  The reason for inclusion of this application is that the structure of the application was perfect for an upgrade due to the limited functionality that was considered. First off it requires
+   outside data to function, which was original a text-based file.  The update was made to utilize a CSV file which does not alter its text-based functionality but allows for easier reading
+    and writing to the files due to the delimiter. With data being read from the text file, the next step was to ensure that alterations to the data could be made, such as adding additional 
+    records, or even updating existing information, to allow more versatility to its purpose. Additionally, the addition of utilizing an algorithm, in this case a binary search tree, made the 
+    most sense to cut down on search times through large volumes of data, to have better return time. Taking steps further, the use of the algorithm which for most would be helpful using it
+     with number-based values (such as a system generated unique identifier), taking the steps to push the algorithm to build up based on strings helps to better show an understanding at the
+      versatility that these algorithms can have with the data elements utilized, making it so even text-based data can be used for ease of searching.
+</p>
+<br>
+<p>
+  Further details regarding the enhancement of the selected artifacts can be found in the artifact sections below. 
+</p>
 <a href="/index.html" class=button>Home</a>
 <a href="/code-review.html" class=button>Code Review</a>
 <a href="/task-scheduler.html" class=button>Artifact 1 - Task Scheduler</a>
