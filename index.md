@@ -42,6 +42,7 @@ layout: default
   <p class="container">
   <a href="/code-review.html" class="button">Code Review</a>
   <a href="/self-assessment.html" class="button">Self-Assessment</a>
+  <br>
   <a href="/task-scheduler.html" class="button">Artifact 1 - Task Scheduler</a>
   <a href="/monitoring-system.html" class="button">Artifact 2 - Monitoring System</a>
   </p>
