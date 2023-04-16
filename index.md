@@ -39,8 +39,10 @@ layout: default
   of the artifacts used for the enhancement process, and how best to implement the new requirements. Next can be found the professional self-assessment in which speaks to my journey during the Computer Science program and how it helped to teach me new skills but also how best to improve the skill set I already utilized in my professional career currently. Lastly, you will find 
   the two artifacts used for enhancement, the Task Scheduler and the Monitoring System. Both contain the original source code as well as the enhancement, as well as information on why these 
   updates were made and the process taken.</p>
+  <p class="container">
   <a href="/code-review.html" class="button">Code Review</a>
   <a href="/self-assessment.html" class="button">Self-Assessment</a>
   <a href="/task-scheduler.html" class="button">Artifact 1 - Task Scheduler</a>
   <a href="/monitoring-system.html" class="button">Artifact 2 - Monitoring System</a>
+  </p>
 </div>
