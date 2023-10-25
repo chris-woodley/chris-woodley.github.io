@@ -80,7 +80,7 @@ layout: default
     </tr>
     <tr>
       <td class="center1">
-          <a href="[/_artifacts.html](https://github.com/chris-woodley/chris-woodley.github.io/tree/main/_artifacts)https://github.com/chris-woodley/chris-woodley.github.io/tree/main/_artifacts" class=button>Projects</a>
+          <a href="[/_artifacts.html](https://github.com/chris-woodley/chris-woodley.github.io/tree/main/_projects)https://github.com/chris-woodley/chris-woodley.github.io/tree/main/_projects" class=button>Projects</a>
       </td>
     </tr>
   </table>
