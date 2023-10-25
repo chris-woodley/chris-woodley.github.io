@@ -78,6 +78,10 @@ layout: default
         <a href="/monitoring-system.html" class=button>Artifact 2 - Monitoring System</a> 
       </td>
     </tr>
+    <tr>
+      <td class="center1">
+          <a href="/_artifacts.html" class=button>Projects</a>
+    </tr>
   </table>
 </p>
 </div>
